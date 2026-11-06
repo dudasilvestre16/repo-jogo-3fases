@@ -1,0 +1,30 @@
+package jogo_3_fases;
+
+import javax.swing.JOptionPane;
+
+public class main {
+
+	public static void main(String[] args) {
+
+  int pontos1 = 0;
+  int pontos2 = 0;
+  int jogada1;
+  int jogada2;
+  int i = 0;
+  
+  do {
+  
+  JOptionPane.showMessageDialog(null, "!Pedra, Papel ou Tesoura! n/ Aperte 'Enter' para começar");
+  
+  String jogador1 = JOptionPane.showInputDialog("Insira o nome do jogador 1: ");
+  String jogador2 = JOptionPane.showInputDialog("Insira o nome do jogador 2: ");
+  
+  jogada1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 1: Insira sua jogada em números: n/ 1 para pedra n/ 2 para papel n/ 3 para tesoura"));
+  jogada2 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 2: Insira sua jogada em números: n/ 1 para pedra n/ 2 para papel n/ 3 para tesoura"));
+
+  
+  i++;
+  }while ()
+	}
+
+}
